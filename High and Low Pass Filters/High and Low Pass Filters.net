@@ -1,0 +1,25 @@
+* C:\Users\ryans\Documents\Projects\Simple Electronics\High and Low Pass Filters\High and Low Pass Filters.asc
+V2 Vin2 0 SINE(0 1 1K)
+R1 Vout1 Vin1 1K
+C1 Vout1 0 159n
+C2 Vin2 Vout2 159n
+R2 Vout2 0 1K
+V1 Vin1 0 SINE(0 1 1K)
+.tran 0.01
+* Vout = ( Vin / ( 1 + 2*pi*f*RC ) )
+* RC = 1 / 2*pi*f
+* RC = 0.000159
+* Vout = 0.5
+* R = 1K
+* C = 159n
+* Vout = ( Vin * 2*pi*f*RC / ( 1 + 2*pi*f*RC ) )
+* RC = 1 / 2*pi*f
+* RC = 0.000159
+* Vout = 0.5
+* R = 1K
+* C = 159n
+* Low Pass Filter
+* High Pass Filter
+* In both cases the capacitor is unable to keep up with the input voltage.\nThis results in the excess energy, that the capacitor hasn't stored, being\ndissipated in the resistor. The only difference between the two systems is\nfrom where we source the output voltage
+.backanno
+.end

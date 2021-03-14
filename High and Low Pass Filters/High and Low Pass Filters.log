@@ -1,0 +1,21 @@
+Circuit: * C:\Users\ryans\Documents\Projects\Simple Electronics\High and Low Pass Filters\High and Low Pass Filters.asc
+
+.OP point found by inspection.
+
+Date: Sun Mar 14 14:11:26 2021
+Total elapsed time: 0.359 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2082
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 6
+fillins = 0
+solver = Normal
+Matrix Compiler1:      10 opcodes  0.1/[0.0]/0.0
+Matrix Compiler2: 328 bytes object code size  0.0/0.0/[0.0]
+
